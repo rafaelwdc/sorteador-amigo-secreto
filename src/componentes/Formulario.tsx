@@ -1,5 +1,5 @@
 const Formulario = () => {
-    return(
+    return (
         <form>
             <input type="text" placeholder="Insira os nomes dos participantes" />
             <button disabled={true}>Adicionar</button>

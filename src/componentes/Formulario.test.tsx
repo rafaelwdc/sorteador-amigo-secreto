@@ -4,7 +4,7 @@ import Formulario from "./Formulario";
 
 // Jest
 
-test('Quando o input está vazio, novos participantes não podem ser adicionados',()=> {
+test('Quando o input está vazio, novos participantes não podem ser adicionados', () => {
 
     render(<Formulario />)
 
