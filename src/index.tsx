@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Cabecalho from './Cabecalho';
+import Cabecalho from './componentes/Cabecalho';
 
 ReactDOM.render(
   <React.StrictMode>
