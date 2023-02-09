@@ -24,10 +24,7 @@ exports[`A página de configuração, Deve ser renderizada corretamente 1`] = `
             Adicionar
           </button>
         </div>
-        <p
-          class="alerta erro"
-          role="alert"
-        />
+        
       </form>
       <ul />
       <footer
