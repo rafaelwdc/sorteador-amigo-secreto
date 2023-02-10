@@ -27,10 +27,11 @@ const Sorteio = () => {
                         value={partipanteDaVez}
                         onChange={evento => setPaticipanteDaVez(evento.target.value)}
                     >
+                        <option>Selecione o seu nome</option>
                         {participantes.map(participante => <option key={participante}>{participante}</option>)}
                     </select>
                     <p>Clique em sortear para ver quem é o seu amigo secreto!</p>
-                    <button>Sortear</button>
+                    <button className="botao-sortear">Sortear</button>
                 </form>
                 {amigoSecreto && <p className="resultado" role="alert">{amigoSecreto}</p>}
                 <footer className="sorteio">

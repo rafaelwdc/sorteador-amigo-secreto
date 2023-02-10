@@ -30,7 +30,7 @@ describe('Na página de sorteio', () => {
     test('Todos os participantes podem exibir o seu amigo', () => {
         render(<RecoilRoot><Sorteio /></RecoilRoot>)
         const opcoes = screen.queryAllByRole('option');
-        expect(opcoes).toHaveLength(participantes.length)
+        expect(opcoes).toHaveLength(participantes.length + 1)
     })
     test('O amigo secreto é exibid quando solicitado', () => {
         render(<RecoilRoot><Sorteio /></RecoilRoot>);

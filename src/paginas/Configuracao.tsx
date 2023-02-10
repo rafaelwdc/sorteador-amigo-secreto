@@ -16,4 +16,4 @@ const Configuracao = () => {
     )
 }
 
-export default Configuracao
+export default Configuracao;
